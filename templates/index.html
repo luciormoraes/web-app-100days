@@ -22,6 +22,7 @@
                             <td>{{.Description}}</td>
                             <td>{{.Price}}</td>
                             <td>{{.Quantity}}</td>
+                            <td><a href="edit?id={{.Id}}" class="btn btn-info" >Update</a></td>
                             <td><button class="btn btn-danger" onclick="onDelete('{{.Id}}')">Delete</button></td>
                         </tr>
                         {{end}}
